@@ -1,2 +1,4 @@
 diffusers==0.6.0
-transformers==4.23.1
+transformers==4.37.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
