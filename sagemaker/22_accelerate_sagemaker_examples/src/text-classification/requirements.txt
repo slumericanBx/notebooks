@@ -2,3 +2,4 @@ accelerate # used to be installed in Amazon SageMaker environment
 evaluate
 datasets==2.3.2
 transformers
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
