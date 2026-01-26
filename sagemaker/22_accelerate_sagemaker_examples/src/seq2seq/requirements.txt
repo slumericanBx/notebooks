@@ -3,10 +3,11 @@ evaluate
 datasets==2.3.2
 nltk
 deepspeed
-sentencepiece != 0.1.92
+sentencepiece!=0.2.1
 protobuf
 sacrebleu >= 1.4.12
 nltk
 py7zr
-torch >= 1.3
+torch>=2.10.0
 transformers==4.22.1
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
